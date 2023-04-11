@@ -1,0 +1,137 @@
+.Search-Tab-Con{
+    background-color: #282c34;
+    width: 100vw;
+    
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20vh;
+}
+
+.main-con{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    /* background-color: lightblue; */
+    width: 90vw;
+}
+.credentials-con {
+    width: 90vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rebeccapurple; */
+    margin-top: -10px;
+  }
+  @media (min-width: 768px) {
+    .credentials-con {
+      width: 50vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: red;
+    }
+  }
+  
+  .form-con {
+    width: 90vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 15px;
+    
+  }
+  @media (min-width: 768px) {
+    .form-con {
+      width: 30vw;
+      height: 55vh;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      background-color: lightgreen;
+    }
+  }
+
+  .input-con{
+    /* background-color: lightblue; */
+    display: flex;
+    flex-direction: column;
+   text-align: left;
+   width: 30vw;
+   height: 100px;
+   justify-content: center;
+   align-items: center;
+  }
+  
+  label{
+    color: black;
+   
+  }
+
+  .login-Btn {
+    width: 80vw;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #0284c7;
+    color: white;
+    border: 0px;
+    font-size: 15px;
+    margin-top: -10px;
+  }
+  @media (min-width: 768px) {
+    .login-Btn {
+      width: 20vw;
+      margin-top: 20px;
+    }
+  }
+  
+  
+  
+  input {
+    width: 80vw;
+    height: 40px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid gray;
+    outline: none;
+    cursor: pointer;
+    margin-top: -45px;
+  }
+  @media (min-width: 768px) {
+    input {
+      width: 20vw;
+      height: 40px;
+      margin-top: 7px;
+    }
+  }
+  
+  label {
+    align-self: flex-start;
+    margin-left: 5vw;
+    margin-top: -30px;
+  }
+  @media (min-width: 768px) {
+    label {
+      align-self: flex-start;
+      margin-left: 5vw;
+      margin-top: 5px;
+    }
+  }
+  
+  .error-mesg {
+    color: red;
+    width: 80vw;
+    align-self: flex-start;
+    margin-left: 5vw;
+    font-size: 15px;
+  }
+  @media (min-width: 768px) {
+    .error-mesg {
+      width: 20vw;
+    }
+  }
